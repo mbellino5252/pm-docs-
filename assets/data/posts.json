@@ -38,5 +38,45 @@
         "contentbody": "Just finished building a snowboard rack for my gear. Feeling proud of my work!",
         "contentdate": "2025-03-01",
         "contentauthor": "CraftyRider"
+    },
+    {
+        "id": 6,
+        "contenttype": "post",
+        "contenttitle": "Snowshoeing Adventure",
+        "contentbody": "Tried snowshoeing for the first time today. It was peaceful and a great workout!",
+        "contentdate": "2025-03-15",
+        "contentauthor": "TrailExplorer"
+    },
+    {
+        "id": 7,
+        "contenttype": "post",
+        "contenttitle": "Ski Gear Maintenance Tips",
+        "contentbody": "Just learned how to wax my skis properly. Sharing some tips for fellow skiers!",
+        "contentdate": "2025-04-01",
+        "contentauthor": "GearGuru"
+    },
+    {
+        "id": 8,
+        "contenttype": "post",
+        "contenttitle": "Snowboarding Tricks to Try",
+        "contentbody": "Practiced some new snowboarding tricks today. Can't wait to master them!",
+        "contentdate": "2025-04-15",
+        "contentauthor": "TrickMaster"
+    },
+    {
+        "id": 9,
+        "contenttype": "post",
+        "contenttitle": "Favorite Winter Activities",
+        "contentbody": "Besides skiing and snowboarding, what are your favorite winter activities?",
+        "contentdate": "2025-05-01",
+        "contentauthor": "WinterFan"
+    },
+    {
+        "id": 10,
+        "contenttype": "post",
+        "contenttitle": "Skiing with Friends",
+        "contentbody": "Had a blast skiing with friends this weekend. Great memories on the slopes!",
+        "contentdate": "2025-05-15",
+        "contentauthor": "SlopeBuddy"
     }
 ]

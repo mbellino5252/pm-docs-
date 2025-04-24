@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				postElement.innerHTML = `
                     <div class="contentbox">
                         <div class="contenttitle">${post.contenttitle}</div>
-                        <div class="contentauthor">Posted by: ${
+                        <div class="contentauthor">${
 							post.contentauthor
 						}</div>
                         <div class="contentbody">${post.contentbody}</div>

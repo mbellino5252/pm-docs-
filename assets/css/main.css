@@ -41,6 +41,9 @@ body {
 	text-decoration: none;
     font-size: 1.1rem;
 }
+#selectednav{
+    border-bottom: white 2px solid;
+}
 
 .main {
     background-color: white;

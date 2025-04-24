@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="contenttitle">${post.contenttitle}</div>
                         <div class="contentauthor">${post.contentauthor}</div>
                         <div class="contentbody">${post.contentbody}</div>
-                        <div class="contentdate">${new Date(post.contentdate).toLocaleDateString()}</div>
+                        <div class="contentdate">Posted on: ${new Date(post.contentdate).toLocaleDateString()}</div>
                         
                 `
 
