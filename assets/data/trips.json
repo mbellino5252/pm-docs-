@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "contenttype": "trip",
+        "contenttitle": "Ski Trip to Aspen!",
+        "contentbody": "Hey everyone, planning a ski trip to Aspen. Let's hit the slopes together! Who's in?",
+        "contentdate": "2025-01-01",
+        "contentauthor": "SnowNewbie",
+        "triplocation": "Aspen Snowmass",
+        "tripdate": "2025-12-15"
+    },
+    {
+        "id": 2,
+        "contenttype": "trip",
+        "contenttitle": "Group Snowboarding Trip to Whistler",
+        "contentbody": "Organizing a snowboarding trip to Whistler. The powder is going to be amazing! Join us!",
+        "contentdate": "2025-01-15",
+        "contentauthor": "BoardLover",
+        "triplocation": "Whistler Blackcomb",
+        "tripdate": "2025-12-20"
+    },
+    {
+        "id": 3,
+        "contenttype": "trip",
+        "contenttitle": "Skiing Adventure at Vail",
+        "contentbody": "Planning a skiing adventure at Vail. Let's tackle some trails together. Who's interested?",
+        "contentdate": "2025-02-01",
+        "contentauthor": "SkiLearner",
+        "triplocation": "Vail Ski Resort",
+        "tripdate": "2026-01-05"
+    },
+    {
+        "id": 4,
+        "contenttype": "trip",
+        "contenttitle": "Ski Trip to Park City",
+        "contentbody": "Looking to gather a group for a ski trip to Park City. Any takers?",
+        "contentdate": "2025-02-10",
+        "contentauthor": "ResortSeeker",
+        "triplocation": "Park City Mountain",
+        "tripdate": "2026-01-15"
+    },
+    {
+        "id": 5,
+        "contenttype": "trip",
+        "contenttitle": "Snowboarding Getaway to Breckenridge",
+        "contentbody": "Planning a snowboarding getaway to Breckenridge. Let's make it a trip to remember!",
+        "contentdate": "2025-03-01",
+        "contentauthor": "CraftyRider",
+        "triplocation": "Breckenridge Ski Resort",
+        "tripdate": "2026-02-01"
+    }
+]

@@ -19,6 +19,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-bottom: white solid 2px;
 }
 .logotype {
 	font-family: "Bebas Neue", sans-serif;
@@ -46,12 +47,17 @@ body {
 	display: grid;
     padding: 1rem;
     gap: 1rem;
+    justify-content: center;
 }
 .contentbox {
 	background-color: var(--ski-red);
     color: white;
 	padding: 0.5rem;
     border-radius: 0.5rem;
+    max-width: 25rem;
+}
+.contentbox div{
+    padding-bottom: 0.2rem;
 }
 .contentbox .contenttitle{
     font-family: "Montserrat", sans-serif;
@@ -61,6 +67,12 @@ body {
     border-bottom: white solid 1px;
     font-size: 0.8rem;
 }
+.contentbox .contentbody{
+    border-bottom: white solid 1px;
+}
 .contentbox .contentdate{
     font-size: 0.8rem;
+}
+.contentbox .tripdate{
+    border-bottom: white solid 1px;
 }
