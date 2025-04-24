@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "contenttype": "post",
+        "contenttitle": "My First Ski Trip!",
+        "contentbody": "Hey everyone, just went skiing for the first time. Excited to hit the slopes again soon!",
+        "contentdate": "2025-01-01",
+        "contentauthor": "SnowNewbie"
+    },
+    {
+        "id": 2,
+        "contenttype": "post",
+        "contenttitle": "Weekend Snowboarding Adventure",
+        "contentbody": "Had an amazing time snowboarding in the mountains this weekend. The powder was perfect!",
+        "contentdate": "2025-01-15",
+        "contentauthor": "BoardLover"
+    },
+    {
+        "id": 3,
+        "contenttype": "post",
+        "contenttitle": "Learning to Ski",
+        "contentbody": "Tried skiing on a black diamond trail for the first time today. It was challenging but fun!",
+        "contentdate": "2025-02-01",
+        "contentauthor": "SkiLearner"
+    },
+    {
+        "id": 4,
+        "contenttype": "post",
+        "contenttitle": "Best Ski Resorts?",
+        "contentbody": "Looking for recommendations on the best ski resorts to visit. Any suggestions?",
+        "contentdate": "2025-02-10",
+        "contentauthor": "ResortSeeker"
+    },
+    {
+        "id": 5,
+        "contenttype": "post",
+        "contenttitle": "DIY Snowboard Rack Success",
+        "contentbody": "Just finished building a snowboard rack for my gear. Feeling proud of my work!",
+        "contentdate": "2025-03-01",
+        "contentauthor": "CraftyRider"
+    }
+]
