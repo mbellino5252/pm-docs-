@@ -46,36 +46,47 @@ body {
 }
 
 .main {
-    background-color: white;
+	background-color: white;
 	display: grid;
-    padding: 1rem;
-    gap: 1rem;
-    justify-content: center;
+	padding: 1rem;
+	gap: 1rem;
+	justify-content: center;
 }
+
 .contentbox {
 	background-color: var(--ski-red);
-    color: white;
+	color: white;
 	padding: 0.5rem;
-    border-radius: 0.5rem;
-    max-width: 25rem;
+	border-radius: 0.5rem;
+	max-width: 25rem;
+	width: 100%;
+	box-sizing: border-box;
 }
-.contentbox div{
-    padding-bottom: 0.2rem;
+
+.contentbox div {
+	padding-bottom: 0.2rem;
 }
-.contentbox .contenttitle{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+
+.contentbox .contenttitle {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
 }
-.contentbox .contentauthor{
-    border-bottom: white solid 1px;
-    font-size: 0.8rem;
+
+.contentbox .contentauthor {
+	border-bottom: white solid 1px;
+	font-size: 0.8rem;
 }
-.contentbox .contentbody{
-    border-bottom: white solid 1px;
+
+.contentbox .contentdate {
+	font-size: 0.8rem;
 }
-.contentbox .contentdate{
-    font-size: 0.8rem;
+
+.contentbox .tripdate {
+	border-bottom: white solid 1px;
 }
-.contentbox .tripdate{
-    border-bottom: white solid 1px;
+
+.tripphoto {
+	max-width: 100%;
+	justify-self: center;
+	border-radius: 0.5rem;
 }

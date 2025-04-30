@@ -1,3 +1,5 @@
+let postindex=1;
+
 // Fetch the JSON data and dynamically insert DOM elements for each item
 document.addEventListener("DOMContentLoaded", () => {
 	const mainContainer = document.querySelector(".main")
@@ -15,25 +17,27 @@ document.addEventListener("DOMContentLoaded", () => {
 				postElement.classList.add("post")
 
 				postElement.innerHTML = `
-                    <div class="contentbox">
-                        <div class="contenttitle">${post.contenttitle}</div>
-                        <div class="contentauthor">${
+					<div class="contentbox">
+						<div class="contenttitle">${post.contenttitle}</div>
+						<div class="contentauthor">${
 							post.contentauthor
 						}</div>
-                        <div class="contentbody">${post.contentbody}</div>
-                        <div class="triplocation">Location: ${
+						<div class="contentbody">${post.contentbody}</div>
+						<img class="tripphoto" src="https://picsum.photos/600/?random=${postindex}" alt="Trip Photo">
+						<div class="triplocation">Location: ${
 							post.triplocation
 						}</div>
-                        <div class="tripdate">Trip Date: ${new Date(
+						<div class="tripdate">Trip Date: ${new Date(
 							post.tripdate
 						).toLocaleDateString()}</div>
-                        <div class="contentdate">Posted on: ${new Date(
+						<div class="contentdate">Posted on: ${new Date(
 							post.contentdate
 						).toLocaleDateString()}</div>
-                    </div>
-                `
+					</div>
+				`
 
 				mainContainer.appendChild(postElement)
+				postindex++
 			})
 		})
 		.catch((error) => {
