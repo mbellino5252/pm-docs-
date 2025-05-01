@@ -1,0 +1,14 @@
+GitHub Issue #1: Design and Trip Layout Improvements
+Title: Improve Trip Layout, Add Photos, and Clickable Locations
+The current red and white theme looks great! I’d like to suggest some updates to make the trip listings cleaner and more engaging:
+Reduce the amount of plain white space in the trip sections.
+Make each trip "card" larger and more visually appealing by adding a photo for each trip.
+Make the trip title/location clickable, leading to more details about the trip.
+Add a basic rating (stars or numbers) under each trip listing. Would you be able to start by mocking up one trip with these changes so we can review before applying it across the site?
+GitHub Issue #2: Clarifying Question - Gear and Resort Links
+Title: Clarification on Gear Purchase/Rental Links and Resort Information
+For the gear section, you mentioned creating "fake links" to buy or rent gear.
+Should these links go to placeholder pages within SkiBuddy (like /rentals) or just open a blank external link?
+For resorts, should I make up fictional resort names and descriptions, or base them on real ones but modify them slightly?
+ Also, any specific features you want the resort pages to have (like weather, maps, or reviews)?
+Let me know — thank you!
