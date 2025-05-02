@@ -16,10 +16,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: white solid 2px;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	border-bottom: white solid 2px;
 }
 .logotype {
 	font-family: "Bebas Neue", sans-serif;
@@ -28,7 +28,13 @@ body {
 	letter-spacing: -0.1rem;
 	color: white;
 	text-decoration: none;
+	transition: transform 0.2s ease-in-out;
 }
+
+.logotype:hover {
+	transform: scale(1.1) rotate(1deg);
+}
+
 .navbar {
 	display: flex;
 	align-items: center;
@@ -36,13 +42,20 @@ body {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 1.2rem;
 }
+
 .navbutton {
 	color: white;
 	text-decoration: none;
-    font-size: 1.1rem;
+	font-size: 1.1rem;
+	transition: transform 0.2s ease-in-out;
 }
-#selectednav{
-    border-bottom: white 2px solid;
+
+.navbutton:hover {
+	transform: scale(1.2) rotate(1deg);
+}
+
+#selectednav {
+	border-bottom: white 2px solid;
 }
 
 .main {
@@ -54,7 +67,7 @@ body {
 }
 
 .contentbox {
-	background-color: var(--ski-red);
+	background-color: slateblue;
 	color: white;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
