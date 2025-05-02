@@ -19,7 +19,7 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 1000;
-	border-bottom: white solid 2px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 .logotype {
 	font-family: "Bebas Neue", sans-serif;
@@ -67,13 +67,13 @@ body {
 }
 
 .contentbox {
-	background-color: slateblue;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
-	max-width: 25rem;
 	width: 100%;
 	box-sizing: border-box;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .contentbox div {
@@ -86,19 +86,23 @@ body {
 }
 
 .contentbox .contentauthor {
+	color: #444;
 	border-bottom: white solid 1px;
 	font-size: 0.8rem;
 }
 
 .contentbox .contentdate {
+	color: #444;
 	font-size: 0.8rem;
 }
 
-.contentbox .tripdate {
-	border-bottom: white solid 1px;
+.contentbox .tripdetails {
+	background-color: #eee;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
 }
 
-.tripphoto {
+.postphoto {
 	max-width: 100%;
 	justify-self: center;
 	border-radius: 0.5rem;
