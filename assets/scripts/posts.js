@@ -1,6 +1,5 @@
 let postindex=1;
 
-
 // Fetch the JSON data and dynamically insert DOM elements for each item
 document.addEventListener("DOMContentLoaded", () => {
 	const mainContainer = document.querySelector(".main")

@@ -24,14 +24,16 @@ body {
 .logotype {
 	font-family: "Bebas Neue", sans-serif;
 	align-items: center;
-	font-size: 3rem;
+	align-self: center;
+	font-size: clamp(2rem, 8vw, 4rem); /* Caps the size between 2rem and 5rem */
 	letter-spacing: -0.1rem;
 	color: white;
 	text-decoration: none;
 	transition: transform 0.2s ease-in-out;
 }
 
-.logotype:hover {
+.logotype:hover,
+.logotype:active {
 	transform: scale(1.1) rotate(1deg);
 }
 
@@ -50,7 +52,8 @@ body {
 	transition: transform 0.2s ease-in-out;
 }
 
-.navbutton:hover {
+.navbutton:hover,
+.navbutton:active {
 	transform: scale(1.2) rotate(1deg);
 }
 
@@ -106,4 +109,55 @@ body {
 	max-width: 100%;
 	justify-self: center;
 	border-radius: 0.5rem;
+}
+
+#profilecontainer {
+	padding: 1rem;
+	display: grid;
+	justify-items: center;
+}
+
+.profilephoto {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.profileusername {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 2rem;
+	color: var(--ski-red);
+	margin-top: 0.5rem;
+}
+
+.profilename {
+	font-size: 1.2rem;
+}
+
+.profilebio {
+	color: #444;
+	text-align: center;
+	margin-top: 0.5rem;
+	max-width: 60%;
+}
+
+.accounteditbutton {
+	margin-top: 1rem;
+	background-color: var(--ski-red);
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+.accounteditbutton:hover {
+	background-color: #d62839;
+}
+.accounteditbutton:active {
+	background-color: #d62839;
+	transform: scale(0.95);
 }
