@@ -183,6 +183,23 @@ body {
 .profileformelement {
 	display: grid;
 }
+
+.buttonrow{
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.buttonrow .accountbutton {
+	margin-top: 0;
+}
+
+#cancelbutton {
+	background-color: white;
+	color: var(--ski-red);
+	border: 1px solid var(--ski-red);
+}
+
 .reviews {
 	background-color: white;
 	display: grid;
