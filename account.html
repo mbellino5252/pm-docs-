@@ -18,9 +18,7 @@
 				<a href="trips.html" class="navbutton">Trips</a>
 				<a href="gear.html" class="navbutton">Gear</a>
 				<a href="resorts.html" class="navbutton">Resorts</a>
-				<a href="account.html" class="navbutton" id="selectednav"
-					>Account</a
-				>
+				<a href="account.html" class="navbutton" id="selectednav">Account</a>
 			</div>
 		</div>
 		<div class="main">
@@ -35,7 +33,50 @@
 				<div class="profileskill"></div>
 				<div class="profilebio"></div>
 				<div class="profileresorts"></div>
-				<button class="accounteditbutton">Edit</button>
+				<button class="accountbutton" id="editbutton">Edit</button>
+				<div class="contentbox" id="profileeditcontainer">
+					<form id="profileeditform">
+						<div class="profileformelement">
+							<label for="firstname">First Name:</label>
+							<input
+								type="text"
+								id="firstname"
+								name="firstname"
+							/>
+						</div>
+
+						<div class="profileformelement">
+							<label for="lastname">Last Name:</label>
+							<input
+								type="text"
+								id="lastname"
+								name="lastname"
+							/>
+						</div>
+
+						<div class="profileformelement">
+							<label for="skilllevel">Skill Level:</label>
+							<select id="skilllevel" name="skilllevel">
+								<option value="beginner">Beginner</option>
+								<option value="intermediate">Intermediate</option>
+								<option value="advanced">Advanced</option>
+							</select>
+						</div>
+
+						<div class="profileformelement">
+							<label for="bio">Bio:</label>
+							<textarea
+								id="bio"
+								name="bio"
+								placeholder="Write something about yourself"
+							></textarea>
+						</div>
+
+						<div class="profileformelement">
+							<button class="accountbutton" id="savebutton" type="button">Save</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 

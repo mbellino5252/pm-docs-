@@ -143,7 +143,7 @@ body {
 	max-width: 60%;
 }
 
-.accounteditbutton {
+.accountbutton {
 	margin-top: 1rem;
 	background-color: var(--ski-red);
 	color: white;
@@ -154,10 +154,31 @@ body {
 	cursor: pointer;
 	transition: background-color 0.2s ease-in-out;
 }
-.accounteditbutton:hover {
+.accountbutton:hover {
 	background-color: #d62839;
 }
-.accounteditbutton:active {
+.accountbutton:active {
 	background-color: #d62839;
 	transform: scale(0.95);
+}
+
+#profileeditcontainer{
+	display: none;
+	margin-top: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+}
+
+#profileeditform {
+	display: grid;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#profileeditform * {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+}
+
+.profileformelement{
+	display: grid;
 }
