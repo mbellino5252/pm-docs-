@@ -2,7 +2,6 @@
     "username": "awesomeboarder",
     "fname": "Max",
     "lname": "Bellino",
-    "bio": "Beginner snowboarder who loves exploring new mountains. Always eager to learn and improve!",
     "skilllevel": "Beginner",
-    "favresorts": ["aspen", "vail", "breckenridge"]
+    "bio": "Beginner snowboarder who loves exploring new mountains. Always eager to learn and improve!"
 }
