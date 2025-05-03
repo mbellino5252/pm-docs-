@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "reviewer": "GearGuru",
+        "rating": 5,
+        "reviewtitle": "Best Ski Boots Ever!",
+        "reviewbody": "These ski boots are incredibly comfortable and provide excellent support. I can ski all day without any discomfort!"
+    },
+    {
+        "id": 2,
+        "reviewer": "SnowLover99",
+        "rating": 4,
+        "reviewtitle": "Great Snowboard!",
+        "reviewbody": "This snowboard is great for beginners and intermediate riders. It handles well on all types of snow."
+    },
+    {
+        "id": 3,
+        "reviewer": "MountainMaster",
+        "rating": 3,
+        "reviewtitle": "Decent Ski Poles",
+        "reviewbody": "These ski poles are lightweight and durable, but the grips could be more comfortable."
+    },
+    {
+        "id": 4,
+        "reviewer": "PowderFanatic",
+        "rating": 5,
+        "reviewtitle": "Amazing Goggles!",
+        "reviewbody": "These goggles provide excellent visibility and never fog up, even in extreme conditions."
+    },
+    {
+        "id": 5,
+        "reviewer": "BoarderDude",
+        "rating": 2,
+        "reviewtitle": "Disappointing Bindings",
+        "reviewbody": "The bindings are hard to adjust and don't feel very secure. I wouldn't recommend them."
+    },
+    {
+        "id": 6,
+        "reviewer": "SkiQueen",
+        "rating": 4,
+        "reviewtitle": "Warm and Stylish Jacket",
+        "reviewbody": "This jacket keeps me warm and looks great, but the zippers are a bit flimsy."
+    },
+    {
+        "id": 7,
+        "reviewer": "ShredderSam",
+        "rating": 5,
+        "reviewtitle": "Perfect Snowboard Boots",
+        "reviewbody": "These boots fit perfectly and provide excellent support. My feet stay warm and dry all day."
+    },
+    {
+        "id": 8,
+        "reviewer": "IceKing",
+        "rating": 3,
+        "reviewtitle": "Average Helmet",
+        "reviewbody": "The helmet is okay, but it feels a bit heavy and the ventilation could be better."
+    },
+    {
+        "id": 9,
+        "reviewer": "SkiBunny",
+        "rating": 1,
+        "reviewtitle": "Terrible Gloves",
+        "reviewbody": "These gloves are not warm at all and the stitching started coming apart after one use."
+    },
+    {
+        "id": 10,
+        "reviewer": "SnowPro",
+        "rating": 5,
+        "reviewtitle": "Fantastic Skis!",
+        "reviewbody": "These skis are lightweight, responsive, and perform beautifully on all types of terrain."
+    }
+]
